@@ -1,0 +1,105 @@
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 125%;
+}
+
+html body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #5c005c;
+}
+
+html body main {
+  margin: 10px;
+}
+
+html body main .main #title {
+  text-transform: capitalize;
+  text-align: center;
+}
+
+html body main .main #description {
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+html body main .main .form {
+  background-color: rgba(0, 0, 0, 0.315);
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  max-width: 550px;
+  text-align: left;
+}
+
+html body main .main .form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+html body main .main .form form input {
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+html body main .main .form form select {
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+html body main .main .form form .form-items {
+  margin: 15px 0px;
+}
+
+html body main .main .form form .form-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+html body main .main .form form textarea {
+  font-size: 20px;
+}
+
+html body main .main .form form [type="submit"] {
+  background-color: white;
+  margin: 20px 0px;
+}
+
+@media (max-width: 1400px) {
+  html body main .main .form {
+    padding: 40px;
+  }
+}
+
+@media (max-width: 1000px) {
+  html body main .main .form {
+    padding: 30px;
+  }
+}
+
+@media (max-width: 700px) {
+  html body main .main .form {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  html body main .main .form {
+    padding: 10px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
